@@ -9,6 +9,7 @@
 title: To Infinity...AND BEYOND!
 email: spacekat@gmail.com
 description: SpaceKat - A blog for learning about anything and everything under the stars.
+baseurl: "/spacekat"
 url: "http://spaceshipsarecool.com" # the base hostname & protocol for your site
 github_username:  katherinebeam
 

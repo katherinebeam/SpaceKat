@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post 
 title:  "New Adventures"
 date:   2016-04-16 02:34:36
 categories: outerspace
