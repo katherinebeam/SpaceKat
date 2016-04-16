@@ -1,0 +1,18 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely need to edit after that.
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'jekyll serve'. If you change this file, please restart the server process.
+
+# Site settings
+title: To Infinity...AND BEYOND!
+email: spacekat@gmail.com
+description: A blog for learning about anything and everything under the stars
+url: "http://spaceshipsarecool.com" # the base hostname & protocol for your site
+github_username:  katherinebeam
+
+# Build settings
+markdown: kramdown
+#permalink: pretty #removes the '.html' from end of url
+permalink: /:title #removes the date and '.html' from end of title
