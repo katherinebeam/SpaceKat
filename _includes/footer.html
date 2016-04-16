@@ -1,38 +1,10 @@
-<footer class="site-footer">
-
-  <div class="wrapper">
-
-    <h2 class="footer-heading">{{ site.title }}</h2>
-
-    <div class="footer-col-wrapper">
-      <div class="footer-col footer-col-1">
-        <ul class="contact-list">
-          <li>{{ site.title }}</li>
-          <li><a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
-        </ul>
-      </div>
-
-      <div class="footer-col footer-col-2">
-        <ul class="social-media-list">
-          {% if site.github_username %}
-          <li>
-            {% include icon-github.html username=site.github_username %}
-          </li>
-          {% endif %}
-
-          {% if site.twitter_username %}
-          <li>
-            {% include icon-twitter.html username=site.twitter_username %}
-          </li>
-          {% endif %}
-        </ul>
-      </div>
-
-      <div class="footer-col footer-col-3">
-        <p>{{ site.description }}</p>
-      </div>
+<footer class="panel--centered" role="contentinfo">
+  <div class="grid">
+    <div class="centered grid__col--6">
+    	<img class="img--avatar" src="http://i1294.photobucket.com/albums/b617/katiebeam/katandkanga_zpswlorakhq.jpg">
+      <p>{{ site.description }} <br>
+        Follow <a href="https://github.com/{{ site.github_username }}">@{{ site.github_username }}</a>
+      </p>
     </div>
-
   </div>
-
 </footer>
